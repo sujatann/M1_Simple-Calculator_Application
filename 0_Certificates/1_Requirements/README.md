@@ -17,4 +17,7 @@ This project consist of a program which takes an arithmetic operator +, -, *, / 
 1. Taking the two numbers to do any operation.
 2. A code is written where different commands are used for different operations.
 3. In case of squaring and cubing a number take only one number as an input.
-4. The answer must be diSplayed on the screen.
+4. The answer must be displayed on the screen.
+
+
+##  SWOT ANALYSIS
