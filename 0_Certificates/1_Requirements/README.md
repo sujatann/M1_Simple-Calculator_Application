@@ -20,6 +20,9 @@ This project consist of a program which takes an arithmetic operator +, -, *, / 
 4. The answer must be displayed on the screen.
 
 
+<<<<<<< HEAD
+##  SWOT ANALYSIS
+=======
 ##  SWOT ANALYSIS
  1. Strength 
  *  Capable of adding,substracting,dividing,multiplying any two numbers and gives squares and cubes of any particular number that you ask for.
@@ -33,3 +36,4 @@ This project consist of a program which takes an arithmetic operator +, -, *, / 
  4. Threat
  * Will not ask for more than two numbers.
  
+>>>>>>> 64be9683e58d5bba87bcf8fd7e4409b14c730fc7
