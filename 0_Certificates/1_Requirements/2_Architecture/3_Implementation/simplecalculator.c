@@ -1,5 +1,5 @@
 /**
- * @file Simplecalculator.C
+ * @file Simple Calculator.C
  * @author sujata ()
  * @brief simple computer:add,sub,mul,div,sqr,cube
  * @version 0.1
