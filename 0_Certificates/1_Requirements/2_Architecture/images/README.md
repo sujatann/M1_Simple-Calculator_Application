@@ -1,0 +1,1 @@
+Simple images that would give an idea about how the simple calculators wouls look.
