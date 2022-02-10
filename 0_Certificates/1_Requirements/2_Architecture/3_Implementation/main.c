@@ -1,17 +1,17 @@
-/**
- * @file Simple Calculator.C
- * @author sujata ()
- * @brief simple computer:add,sub,mul,div,sqr,cube
- * @version 0.1
- * @date 2022-02-05
- * 
- * @copyright Copyright (c) 2022
- * 
- */
-//simple computer:add,sub,mul,div,sqr,cube
-#include<stdio.h>
 
-#include<math.h>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 int main()
 {
