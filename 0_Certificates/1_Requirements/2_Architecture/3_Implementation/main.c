@@ -27,7 +27,9 @@ int main()
           "\n7 = exit"
           "\n\nChoice: ");
    scanf("%d", &choose);
+   
    //while loop check whether the choice is in the given range
+
    while(choose< 1 || choose > 7)
    {
       printf("\nPlease choose the above mentioned option."
