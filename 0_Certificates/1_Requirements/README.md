@@ -35,10 +35,15 @@ This project consist of a program which takes an arithmetic operator +, -, *, / 
  ##	5W’s and 1 How
 
 •	When to use is in need of the requirement of basic calculations.
+
 •	Where:  can be in schools, working place, counters etc.
+
 •	Why can be stated in case to know the exact calculations.
+
 •	Who is someone who wants to take use of it and find solution for their problems.
+
 •	What is by using numbers in the calculator.
+
 •	How is by taking two numbers as input and  carrying out any operation of the choice.
 
 
