@@ -37,7 +37,7 @@ int main()
  
           "\n6 = Cubes\n"
 
-          "\n7 = exit\n"
+          "\n7 = exit\"
 
           "\n\nchoose: ");
 
