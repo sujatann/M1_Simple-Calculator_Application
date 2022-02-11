@@ -1,5 +1,5 @@
 /**
- * @file Simple Calculator.C
+ * @file Simplecalculator.C
  * @author sujata ()
  * @brief simple computer:add,sub,mul,div,sqr,cube
  * @version 0.1
@@ -9,38 +9,23 @@
  * 
  */
 //simple computer:add,sub,mul,div,sqr,cube
-
-// progarm to obtain some basic operations used in simple calculators
-
 #include<stdio.h>
-
-#include<stdlib.h>
-
-#include<math.h>
 
 int main()
 {
    int choose;
    long no1, no2, m;
-   printf("Please choose your option from the below:"
+   printf("Please choose your option:"
           "\n1 = Addition"
-
           "\n2 = Subtraction"
-
           "\n3 = Multiplication"
-
           "\n4 = Division"
-
           "\n5 = Squares"
-
           "\n6 = Cubes"
-
           "\n7 = exit"
-
-          "\n\nchoose: ");
-
+          "\n\nChoice: ");
    scanf("%d", &choose);
-   //while loop check whether the choose option  is in the given range
+   //while loop check whether the choice is in the given range
    while(choose< 1 || choose > 7)
    {
       printf("\nPlease choose the above mentioned option."
@@ -51,42 +36,38 @@ int main()
    {
 
    case 1:
-      printf("Enter  the two numbers to add: \n");
-
+      printf("Enter two numbers: \n");
       scanf("%ld %ld", &no1, &no2);
       m = no1 + no2;
       printf("Sum = %ld", m);
       break;
 
    case 2:
-      printf("Enter the  two numbers substract: \n");
+      printf("Enter two numbers: \n");
       scanf("%ld %ld", &no1, &no2);
       m = no1 - no2;
-      printf("Sub = %ld", m);
+      printf("Subtraction = %ld", m);
       break;
 
    case 3:
 
-      printf("Enter the  two numbers to multiply: \n");
+      printf("Enter two numbers: \n");
       scanf("%ld %ld", &no1, &no2);
       m = no1 * no2;
-      printf("Pdt= %ld", m);
+      printf("Product = %ld", m);
       break;
    case 4:
 
-      printf("Enter the Dividend: ");
-
+      printf("Enter Dividend: ");
       scanf("%ld", &no1);
-
-      printf("Enter the Divisor: ");
-
+      printf("Enter Divisor: ");
       scanf("%ld", &no2);
-     //while loop checks for  the divisor whether it is zero or not
+     //while loop checks for divisor whether it is zero or not
 
      while(no2 == 0)
      {
         printf("\nDivisor cannot be zero."
-               "\nEnter divisor once again to confirm: ");
+               "\nEnter divisor once again: ");
         scanf("%ld", &no2);
      }
 
@@ -95,21 +76,17 @@ int main()
      break;
 
    case 5:
-      printf("Enter any number of your choice: \n");
+      printf("Enter any number: \n");
       scanf("%ld", &no1);
       m= no1 * no1;
-      printf("Sqr = %ld", m);
+      printf("Square = %ld", m);
       break;
 
-   case 6:
-   
-      printf("Enter any number of  your choice: \n");
-
+   case 6:printf("Enter any number: \n");
       scanf("%ld", &no1);
-
       m = no1 * no1 * no1;
-      printf("Cube = %ld", m);
-
+      printf("Cube = %ld", m);1
+   
       break;
 
    case 7:
