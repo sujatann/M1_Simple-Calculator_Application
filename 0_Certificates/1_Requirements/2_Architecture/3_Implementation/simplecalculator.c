@@ -1,17 +1,3 @@
-/**
- * @file Simple Calculator.C
- * @author sujata ()
- * @brief simple computer:add,sub,mul,div,sqr,cube
- * @version 0.1
- * @date 2022-02-05
- * 
- * @copyright Copyright (c) 2022
- * 
- */
-//simple computer:add,sub,mul,div,sqr,cube
-
-// progarm to obtain some basic operations used in simple calculators
-
 #include<stdio.h>
 
 #include<stdlib.h>
@@ -37,7 +23,7 @@ int main()
  
           "\n6 = Cubes\n"
 
-          "\n7 = exit\"
+          "\n7 = exit\n"
 
           "\n\nchoose: ");
 
